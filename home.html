@@ -258,6 +258,52 @@
                 </div>
             </div>
         </section>
+        <!--Pricing table section-->
+        <section class="pricing-table">
+            <img src="images/shape-06.svg" alt="Shape" class="shape">
+            <img src="images/shape-03.svg" alt="Shape" class="shape">
+            <img src="images/shape-07.svg" alt="Shape" class="shape">
+            <img src="images/shape-12.svg" alt="Shape" class="shape">
+            <img src="images/shape-13.svg" alt="Shape" class="shape">
+
+            <div>
+                <div class="section-title animate-top">
+                    <h2 class="title">We offer great affordable premium prices.</h2>
+                    <p class="description">It is a long established fact that areader will be distracted by the readable content of a page when looking at its layout. The point of using.</p>
+                </div>
+            </div>
+            <div class="pricing-switcher">
+                <span class="bill-type">Bill Monthly</span>
+                <button class="switch0button" x-cloak>
+                <div class="slider"></div>
+                <div class="monthly-toggle" :class="{'active': billPlan == 'monthly' }"></div>
+            </button>
+            <span class="bill-type">Bill Anually</span>
+            </div>
+            <div class="pricing-table-content">
+                <div class="pricing-wrapper">
+                    <template>
+                        <div class="pricing-item animate-top">
+                            <h4 class="plan-name">Basic</h4>
+
+                            <div class="price-section">
+                                <h2 class="price text-green-500">$99</h2>
+                                <span class="price-duration">/per month</span>
+                            </div>
+                            <p class="no-credit">No credit card required</p>
+                            <a href="#" class="try-for-free-button">Try for free</a>
+
+                            <ul class="features-list">
+                                <li>Feature 1</li>
+                                <li>Feature 2</li>
+                                <li>Feature 3</li>
+                            </ul>
+                            <p class="free-trial">7-day free trial</p>
+                        </div>
+                    </template>
+                </div>
+            </div>
+        </section>
     </main>
     </body>
 </html>
