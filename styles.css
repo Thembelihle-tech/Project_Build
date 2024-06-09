@@ -812,6 +812,19 @@
     top: 25%;
     right: 20%;
   }
+  .shape-07{
+    width: 6.25rem;
+    right: 5%;
+    bottom: 10%;
+  }
+  .shape-12{
+    left: 0px;
+    bottom: 0px;
+  }
+  .shape-13{
+    top: 0px;
+    right: 0px;
+  }
   .contact-section {
     padding: 80px 0;
     background-color: #f8f8f8;
