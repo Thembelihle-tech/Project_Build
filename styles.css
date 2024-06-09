@@ -23,7 +23,14 @@ img{
     display: block;
 }
 nav{
-    display: block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
 }
 li{
     display: list-item;
