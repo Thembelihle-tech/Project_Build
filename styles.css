@@ -801,6 +801,13 @@
     overflow: hidden;
     position: relative;
   }
+  .Shape{
+    position: absolute;
+  }
+  .shape-06{
+    top: 5%;
+    left: 10%;
+  }
   .contact-section {
     padding: 80px 0;
     background-color: #f8f8f8;
