@@ -30,3 +30,8 @@ li{
     text-align: -webkit-match-parent;
     unicode-bidi: isolate;
 }
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
