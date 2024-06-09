@@ -1178,8 +1178,7 @@
     }
   
     .services-list {
-        display: flex;
-      flex-direction: column;
+        display: grid;
       justify-content: space-between;
       height: 100%;
     }
