@@ -526,7 +526,8 @@
     padding: 80px 0;
   }
   
-  .testimonial-container {
+  
+  .testimonial-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
