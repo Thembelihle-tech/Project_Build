@@ -6,3 +6,7 @@ body{
     font-weight: 400;
     color: rgb(121, 128, 138);
 }
+a{
+    color: inherit;
+    text-decoration: inherit;
+}
