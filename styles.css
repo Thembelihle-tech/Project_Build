@@ -46,3 +46,14 @@ svg{
     display: block;
     vertical-align: middle;
 }
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+.nav-links li{
+    position: relative;
+}
+.nav-links a{
+    padding: 10px 20px;
+    display: block;
+}
