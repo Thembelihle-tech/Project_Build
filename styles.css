@@ -7,19 +7,9 @@
   }
   
   body {
-    position: relative;
-    font-family: Inter, sans-serif;
     background-color: #f4f4f4;
     color: #000000;
     line-height: 1.6;
-  }
-  img, video{
-    max-width: 100%;
-    height: auto;
-  }
-  img, svg, video{
-    display: block;
-    vertical-align: middle;
   }
   
   /* Header Styles */
@@ -31,7 +21,6 @@
     z-index: 1000;
   }
   
-
   .logo {
     display: inline-block;
   }
@@ -133,12 +122,18 @@
     color: #666666;
   }
   
-  .hero-image {
-    display: block;
-    width: 100%;
-    max-width: 800px;
-    margin: 0 auto;
-    margin-bottom: 40px;
+  .r{
+    top: 0px;
+  }
+  .q{
+    right: 0px;
+  }
+  .h{
+    position: absolute;
+  }
+
+  .ua{
+    z-index: 1;
   }
   
   .features-container {
@@ -792,7 +787,6 @@
   .blog-title a:hover {
     color: #D6011B;
   }
-  
   
   .contact-section {
     padding: 80px 0;
