@@ -800,6 +800,21 @@
   .h{
     position: absolute;
   }
+  .ca{
+    top: 25%;
+  }
+  .u{
+    right: 20%;
+  }
+  .ee{
+    width: 6.25rem;
+  }
+  .da{
+    right: 5%;
+  }
+  .w{
+    bottom: 10%;
+  }
   .contact-section {
     padding: 80px 0;
     background-color: #f8f8f8;
