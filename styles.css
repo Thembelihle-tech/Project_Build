@@ -22,3 +22,11 @@ img{
     height: auto;
     display: block;
 }
+nav{
+    display: block;
+}
+li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+}
