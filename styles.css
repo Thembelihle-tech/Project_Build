@@ -23,6 +23,13 @@
     padding: 10px 20px;
     background-color: #ffffff;
     position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  body{
+    margin-top: 70px;
   }
   
   .logo img{
@@ -30,14 +37,13 @@
   }
   nav ul {
     list-style: none;
-    margin: 0;
-    padding: 0;
     display: flex;
     align-items: center;
   }
   
   nav ul li {
     position: relative;
+    margin-left: 20px;
   }
   
   nav ul li a {
@@ -87,9 +93,15 @@
   header > div a{
     text-decoration: none;
     padding: 5px 10px;
+    background-color: #D6011B;
+    color: white;
+    border-radius: 25px;
   }
   header > div a:hover{
-    background-color: #555;
+    background-color: pink;
+    color: #000000;
+    border-radius: 25px;
+
   }
 
   @media(max-width: 768){
@@ -337,7 +349,7 @@
   }
   
   .pricing-table {
-    padding: 80px 0;
+    padding: 50px;
     background-color: #f8f8f8;
   }
   
