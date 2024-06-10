@@ -5,7 +5,10 @@
     box-sizing: border-box;
     font-family: 'Typo Round', sans-serif;
   }
-  
+  main{
+    display: block;
+    unicode-bidi: isolate;
+  }
   body {
     background-color: #f4f4f4;
     color: #000000;
